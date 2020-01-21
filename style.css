@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* ================    HEADER_STARTING   ================ */
+header{
+    background: url('./image/header_bg.jpg') no-repeat center bottom;
+    height: 570px;
+}
+header .menu-top{
+    background: #f8f8f8;
+    padding: 7px 0;
+    box-shadow: 0 0 8px #cfc9c4;
+}
+header .menu-top nav{
+    width: 1115px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu-top nav ul{
+    display: flex;
+}
+header .menu-top nav ul li{
+    margin-left: 23px;
+}
+
+header .menu-top nav ul li a{
+    color: #4e4e4e;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 500ms;
+}
+
+header .menu-top nav ul li a.active,
+header .menu-top nav ul li a:hover
+{
+    color: #dd4400;
+}
+
+/*===============   MAIN _ STARTING =============== */
+
+main{
+    width: 1115px;
+    padding: 50px 0 100px;
+    margin: auto;
+}
+main .about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+main .about .box{
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 13px #ebded9;
+}
+main .about .box h3{
+    font-size: 18px;
+    color: #dd4400;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0;
+}
+main .about .box .line{
+    margin-bottom: 30px;
+}
+.btn{
+    background: #dd4400;
+    padding: 13px 52px 11px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 26px;
+    margin-top: 24px;
+    border: none;
+}
+.btn:hover{
+    background: yellow;
+    color: black;
+}
+
+
+main .business{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .business h2{
+    font-weight: 700;
+    margin-bottom: 52px;
+    font-size: 30px;
+    color: #5e5e5e;
+}
+main .business .left{
+    width: 730px;
+}
+main .business .left p{
+    line-height: 27px;
+    font-size: 18px;
+    color: #5e5e5e;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+main .business .left .btn{
+    margin: 0;
+}
+
+
+
+main .business .right{
+    width: 250px;
+}
+
+main .business .right .works{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+main .business .right .works img{
+    width: 65px;
+    height: 65px;
+    margin-right: 30px;
+}
+main .business .right .works a{
+    font-weight: 400;
+    font-size: 14px;
+    color: #dd4400;
+    text-decoration: underline;
+    line-height: 21px;
+}
